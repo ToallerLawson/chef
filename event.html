@@ -15,9 +15,9 @@
         <p class="href"><a href="./index" target="_self"><b><</b> back to home</a></p>
        
         <div>
-            Chef Toaller Lawson, just as his previous events, will be hosting yet another grand event soon. Do anticipate, or call for more information concerning the event.    
+            <strong>Chef Toaller Lawson</strong>, just as his previous events, will be hosting yet another grand event soon. Do anticipate, or call for more information concerning the event.    
         </div>
-        <p class="call"><a href="tel:0548834945"><button>Call</button></a></p>
+        <p class="flicker-button"><a href="tel:+233548834945"><button>Call</button></a></p>
             </tr>
         </table><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         <table cellpadding="0" cellspacing="0" border="0" height="10%">
@@ -43,12 +43,13 @@
         background-color: black;
         color: white;
         background-position: inherit;
-        font-size: 17.5px;
+        font-size: 21.5px;
     }
 
     a{
         text-decoration: none;
         color: white;
+        font-size: 17.5px;
     }
     
     a:link{
@@ -126,7 +127,17 @@
         color: white;
     }
     
-    .call{
+    p.flicker-button{
         text-align: center;
+        animation: flicker 2s infinite;
+        font-weight: bold;
     }
+    
+    @keyframes flicker{
+        0%{opacity: 1;}
+        50%{opacity: 0.5;}
+        100%{opacity: 1;}
+    }
+    
+   
 </style>
